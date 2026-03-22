@@ -1,7 +1,7 @@
 function StorageInfo() {
   return (
     <section className="relative bg-blue-850 px-8 py-10 rounded-[10px] shadow-[0_75px_100px_rgba(0,0,0,0.25)]">
-      <div className="flex flex-col items-center gap-4">
+      <div className="flex flex-col gap-4 text-center tablet:text-start">
         <p>You’ve used <span className="font-bold">815 GB</span> of your storage</p>
         
         <div className="flex flex-col items-center gap-2 self-stretch">
