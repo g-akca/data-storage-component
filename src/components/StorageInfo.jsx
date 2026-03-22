@@ -18,11 +18,11 @@ function StorageInfo() {
         </div>
       </div>
 
-      <div className="absolute left-1/2 -translate-x-1/2 -bottom-10 desktop:left-auto desktop:translate-x-0 desktop:right-10 desktop:-top-12 bg-white rounded-[10px] h-18 w-44.75 flex justify-center items-center gap-2 text-blue-950">
+      <div className="absolute left-1/2 -translate-x-1/2 -bottom-10 desktop:left-auto desktop:translate-x-0 desktop:right-10 desktop:-top-10 bg-white rounded-[10px] h-18 w-44.75 flex justify-center items-center gap-2 text-blue-950">
         <span className="font-bold text-[40px] leading-[100%]">185</span>
         <p className="uppercase font-bold text-[12px] leading-base opacity-50">GB left</p>
 
-        <div className="hidden desktop:block absolute right-0 -bottom-6.5 border-l-36 border-l-transparent border-t-36 border-t-white"/>
+        <div className="hidden desktop:block absolute right-0 -bottom-6 border-l-36 border-l-transparent border-t-36 border-t-white"/>
       </div>
     </section>
   )
