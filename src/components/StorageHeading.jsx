@@ -5,7 +5,7 @@ import uploadIcon from "/images/icon-upload.svg";
 
 function StorageHeading() {
   return (
-    <section className="bg-blue-850 rounded-l-[10px] rounded-tr-[100px] rounded-br-[10px] p-10 flex flex-col gap-8">
+    <section className="bg-blue-850 rounded-l-[10px] rounded-tr-[100px] rounded-br-[10px] p-10 flex flex-col gap-8 shadow-[0_75px_100px_rgba(0,0,0,0.25)]">
       <img src={logoImg} alt="Fylo logo" className="w-33.75" />
 
       <div className="grid grid-cols-[48px_48px_48px] gap-4 h-12">
